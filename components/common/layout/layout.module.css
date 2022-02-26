@@ -1,0 +1,7 @@
+.root {
+  @apply  bg-primary_dark text-gray_light min-h-screen relative;
+}
+
+.main{
+  @apply md:pl-32  pt-16 px-4
+}

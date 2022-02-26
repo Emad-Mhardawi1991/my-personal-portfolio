@@ -1,0 +1,16 @@
+.side_nav {
+  @apply hidden  w-28  fixed top-0 left-0 min-h-screen bg-secondary_dark  flex-col md:flex;
+}
+
+.side_nav_header {
+  @apply bg-black h-32 text-7xl text-primary_green flex justify-center items-center;
+}
+
+.side_nav_links {
+  @apply grow flex flex-col justify-center items-center   text-sm pb-32 font-mono;
+}
+
+.side_nav_links li {
+  @apply border-b-2 border-primary_dark first:border-t  
+        py-3 w-full text-center cursor-pointer text-gray-300 hover:text-primary_green;
+}

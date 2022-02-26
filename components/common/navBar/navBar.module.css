@@ -1,0 +1,21 @@
+.navBar {
+  @apply md:pl-28 py-4 fixed w-full;
+}
+
+.navBar_container {
+  @apply px-4 sm:px-6 flex justify-between xl:justify-end;
+}
+
+.socialMedia {
+  @apply flex justify-between items-center   gap-3;
+}
+
+/*style Icons*/
+
+.menuIcon {
+  @apply w-7 h-7 text-white md:hidden;
+}
+
+.socialMediaIcon {
+  @apply w-7 h-7 fill-white;
+}
