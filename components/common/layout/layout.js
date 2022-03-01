@@ -1,3 +1,4 @@
+import Button from "../../ui/button/button";
 import NavBar from "../navBar/navBar";
 import SideNav from "../sideNav/sideNav";
 import classes from "./layout.module.css";
@@ -9,7 +10,8 @@ const Layout = (props) => {
       </header>
       <main className={classes.main}>
         <SideNav/>
-        main content
+      
+     
         {props.children}
       </main>
     </div>

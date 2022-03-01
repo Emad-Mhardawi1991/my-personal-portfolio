@@ -1,0 +1,3 @@
+.button{
+    @apply px-4 py-1 border border-primary_green  font-mono font-semibold hover:bg-primary_green  ease-out duration-300
+}

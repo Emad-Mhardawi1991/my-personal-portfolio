@@ -1,5 +1,5 @@
 .navBar {
-  @apply md:pl-28 py-4 fixed w-full;
+  @apply md:pl-28 py-4 fixed w-full bg-primary_dark ;
 }
 
 .navBar_container {
@@ -17,5 +17,5 @@
 }
 
 .socialMediaIcon {
-  @apply w-7 h-7 fill-white;
+  @apply w-7 h-7 fill-white hover:fill-primary_green;
 }
