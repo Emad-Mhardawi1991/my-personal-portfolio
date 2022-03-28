@@ -1,0 +1,26 @@
+.grid_card{
+    @apply bg-secondary_dark h-96  min-h-max  p-4  cursor-pointer
+}
+
+.card_content{
+    @apply bg-red-300  w-full h-full relative
+}
+
+.card_image_box{
+    @apply bg-primary_dark h-full 
+}
+
+.card_image{
+    @apply object-cover w-full h-full
+}
+
+.desc{
+    @apply bg-secondary_dark absolute top-0 left-0 h-full w-full bg-opacity-0 hover:bg-opacity-80 
+    opacity-0 hover:opacity-100 flex flex-col justify-center items-center gap-4
+}
+
+.desc h3{
+    @apply  text-4xl font-bold
+}
+
+

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import AboutSection from '../components/ui/aboutSection/aboutSection'
 import Hero from '../components/ui/hero/hero'
+import MyWorkSection from '../components/ui/myWorkSection/myWorkSection'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
       <Hero/>
       <AboutSection/>
+      <MyWorkSection/>
     </div>
   )
 }
