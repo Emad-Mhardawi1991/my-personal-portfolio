@@ -1,0 +1,20 @@
+
+.skillBar{
+    @apply overflow-hidden
+}
+
+.title{
+    @apply font-mono text-2xl
+}
+
+.title_sub{
+    @apply font-mono text-xs  text-gray-400
+}
+
+.bar{
+    @apply bg-gray-600 h-1 my-4 
+}
+
+.bar div{
+    @apply bg-primary_green h-1 my-4 
+}

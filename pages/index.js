@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import AboutSection from '../components/ui/aboutSection/aboutSection'
 import Hero from '../components/ui/hero/hero'
 import styles from '../styles/Home.module.css'
 
@@ -12,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero/>
+      <AboutSection/>
     </div>
   )
 }

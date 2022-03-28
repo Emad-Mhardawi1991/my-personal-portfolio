@@ -38,7 +38,7 @@ const AnimatedText = (props) => {
     <motion.div
       variants={staggerVariant}
       initial="initial"
-      animate="show"
+      whileInView="show"
       className={props.className}
     >
       {textLetters}

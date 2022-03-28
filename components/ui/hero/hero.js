@@ -14,6 +14,7 @@ const Hero = () => {
   const greetingsLetters = greeting.split("").map((letter, i) => {
     return (
       <motion.span
+      key={i}
         className=" w-fit inline-block "
         variants={textVariant}
         whileHover={textVariant.hover}
@@ -25,10 +26,11 @@ const Hero = () => {
 
   const nameLetters = name.split("").map((letter, i) => {
     if (letter === " ") {
-      return <motion.span> </motion.span>;
+      return <motion.span key={i}> </motion.span>;
     } else {
       return (
         <motion.span
+        key={i}
           className=" w-fit inline-block "
           variants={textVariant}
           whileHover={textVariant.hover}
@@ -41,10 +43,11 @@ const Hero = () => {
 
   const jobTitleLetters = jobTitle.split("").map((letter, i) => {
     if (letter === " ") {
-      return <motion.span> </motion.span>;
+      return <motion.span key={i}> </motion.span>;
     } else {
       return (
         <motion.span
+        key={i}
           className=" w-fit inline-block "
           variants={textVariant}
           whileHover={textVariant.hover}
@@ -59,6 +62,7 @@ const Hero = () => {
     if (letter === "D")
       return (
         <motion.span
+          key={i}
           className=" w-fit text-primary_green pl-4 inline-block"
           variants={textVariant}
           whileHover={textVariant.hover}
@@ -68,6 +72,7 @@ const Hero = () => {
       );
     return (
       <motion.span
+        key={i}
         className=" w-fit text-primary_green inline-block "
         variants={textVariant}
         whileHover={textVariant.hover}
@@ -78,7 +83,7 @@ const Hero = () => {
   });
 
   return (
-    <div className={classes.hero}>
+    <div className={classes.hero}  >
       <motion.div
         className={classes.hero_content}
         variants={staggerVariant}

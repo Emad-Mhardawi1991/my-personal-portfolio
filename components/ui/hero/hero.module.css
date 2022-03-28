@@ -2,20 +2,14 @@
   @apply min-h-screen  text-white flex justify-center  -mt-16 relative;
 }
 
-
-
 .hero_content {
-    @apply text-5xl sm:text-7xl  lg:text-8xl xl:text-9xl 
+  @apply text-5xl sm:text-7xl  lg:text-8xl xl:text-9xl container 
     sm:w-full    sm:p-16
     flex justify-center  flex-col
     font-Road_Rage   
-    w-fit 
-    
-  }
+    w-fit;
+}
 
-
-  .contact_button{
-      @apply w-fit text-lg mt-8 lg:px-12 lg:py-3
-  }
-
-
+.contact_button {
+  @apply w-fit text-lg mt-8 lg:px-12 lg:py-3;
+}
